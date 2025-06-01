@@ -1,33 +1,39 @@
-# What's the Area?
+# squarish-mystery
 
-**Visualisation of a Math Problem using p5.js**
+**Visualisation of a Mathematical Puzzle using p5.js**
 
-This is an interactive simulation of a puzzle where a square is subdivided into 5 rectangles, each with the **same area**. One of them is labeled with a known width of `3`. The goal: **find the area of the whole square**.
+This interactive sketch explores a geometric mystery: a square composed of **five rectangles**, each with **equal area**, and one with a known width of `3`. Can you determine the area of the whole square?
 
-Turns out, the answer is **12 × 12 = 144**, but the geometry behind it reveals something deeper. As you interact with the sketch—clicking on tiles and adjusting dimensions using the **arrow keys**—you'll notice how altering one rectangle reshapes the entire configuration while preserving equal areas.
+Spoiler: the answer is **12 × 12 = 144**, but discovering why is the fun part. By adjusting the width of the key rectangle, you can reshape the configuration—watch the puzzle come alive as everything adapts while maintaining equal areas.
 
-<img src="./rectangles.jpeg" alt="Rectangles" width="400"/>
+<img src="./rectangles.jpeg" alt="Rectangles Puzzle" width="400"/>
 
-## 🔧 How to Run
+## 🔄 Interaction
 
-- Clone or download the repository.
-- Open `index.html` in any modern browser.
-- Click on the rectangles to select them.
-- Use arrow keys to **stretch** or **squish** the selected rectangle and observe the transformation.
+- **Click** on a rectangle to select it.
+- Use **arrow keys** to **stretch** or **compress** the selected tile.
+- The layout dynamically adjusts to preserve equal area among rectangles.
 
-## 💡 Concept
+## 🧠 What's the Mystery?
 
-This visualization is based on a classic geometric puzzle. It demonstrates how **area conservation** works even when dimensions shift. It's a playful yet insightful look into spatial reasoning.
+This sketch is based on a deceptively simple-looking geometry problem. It’s not just about numbers—it’s about how area, proportion, and layout interplay when a constraint is enforced (equal area in this case).
+
+## 🚀 Getting Started
+
+1. Download or clone the repository.
+2. Open `index.html` in your browser.
+3. Play with the configuration and uncover the mystery!
 
 ## 🛠️ Built With
 
-- [p5.js](https://p5js.org/) — A JavaScript library for creative coding
+- [p5.js](https://p5js.org/) — JavaScript library for creative coding.
 
-## 📸 Credits
+## 📷 Credits
 
-Puzzle illustration: *World of Engineering*  
-Interaction & simulation: *Usman using p5.js*
+Puzzle Image: *World of Engineering*  
+Simulation: *Usman (p5.js implementation)*
 
 ---
 
-Feel free to fork, modify, and learn!
+**Explore. Stretch. Solve.**  
+Welcome to the `squarish-mystery`.
