@@ -1,4 +1,4 @@
-# squarish-mystery
+# Squarish-Mystery
 
 **Visualisation of a Mathematical Puzzle using p5.js**
 
@@ -10,11 +10,14 @@ Spoiler: the answer is **12 × 12 = 144**, but discovering why is the fun part. 
 
 <img src="./rectangles.jpeg" alt="Rectangles Puzzle" width="400"/>
 
-## 🔄 Interaction
+## 🔄 Interaction Guide
 
-- **Click** on a rectangle to select it.
-- Use **arrow keys** to **stretch** or **compress** the selected tile.
-- The layout dynamically adjusts to preserve equal area among rectangles.
+- **Q / E** – Decrease or increase the overall scale.
+- **Mouse Wheel** – Zoom in or out.
+- **Click & Drag** – Pan across the canvas.
+- **Arrow Keys** – Stretch or compress the outer rectangle.
+- **Click on a Rectangle** – Reveal what’s underneath.
+- The layout dynamically adjusts to maintain **equal area** among all rectangles.
 
 ## 🧠 What's the Mystery?
 
