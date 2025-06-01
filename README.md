@@ -6,6 +6,8 @@ This interactive sketch explores a geometric mystery: a square composed of **fiv
 
 Spoiler: the answer is **12 × 12 = 144**, but discovering why is the fun part. By adjusting the width of the key rectangle, you can reshape the configuration—watch the puzzle come alive as everything adapts while maintaining equal areas.
 
+[![Run on p5.js](https://img.shields.io/badge/Try%20Live%20Demo-p5.js-blue?style=for-the-badge)](https://editor.p5js.org/Usman_Ali/full/P-jpgfUgW)
+
 <img src="./rectangles.jpeg" alt="Rectangles Puzzle" width="400"/>
 
 ## 🔄 Interaction
